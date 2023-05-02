@@ -9,6 +9,8 @@ public enum GeometricShapesType {
     @JsonProperty("square")
     SQUARE,
     @JsonProperty("triangle")
-    TRIANGLE;
+    TRIANGLE,
+    @JsonProperty("circle")
+    CIRCLE;
 
 }

@@ -7,7 +7,8 @@ public enum GeometricShapesEnum {
 
     TRIANGLE("triangle", new TriangleFactory()),
     RECTANGLE("rectangle", new RectangleFactory()),
-    SQUARE("square", new SquareFactory());
+    SQUARE("square", new SquareFactory()),
+    CIRCLE("circle", new CircleFactory());
 
     private String name;
     private GeometricShapesFactory factory;
