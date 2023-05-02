@@ -18,7 +18,8 @@ import java.io.Serializable;
 @JsonSubTypes({
         @JsonSubTypes.Type(value = Rectangle.class, name = "rectangle"),
         @JsonSubTypes.Type(value = Square.class, name = "square"),
-        @JsonSubTypes.Type(value = Triangle.class, name = "triangle")
+        @JsonSubTypes.Type(value = Triangle.class, name = "triangle"),
+        @JsonSubTypes.Type(value = Circle.class, name = "circle")
 })
 public class GeometricShapes implements Serializable {
 
