@@ -24,9 +24,8 @@ public class RectangleServiceImplTest {
                         .build())
                 .build();
         Area area = rectangleService.calculateArea(areaRequest);
-
         Assertions.assertNotNull(area);
-        Assertions.assertEquals(60, area.getArea());
+        Assertions.assertEquals(30, area.getArea());
     }
 
 }

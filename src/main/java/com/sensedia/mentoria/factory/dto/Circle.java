@@ -7,14 +7,14 @@ import lombok.experimental.SuperBuilder;
 
 import java.io.Serializable;
 
-@Data
-@SuperBuilder
-@JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
-public class Circle extends GeometricShapes implements Serializable {
+    @Data
+    @SuperBuilder
+    @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
+    public class Circle extends GeometricShapes implements Serializable {
 
-    private double radius;
+        private double radius;
 
-    public Circle() {
-        super(GeometricShapesType.CIRCLE);
+        public Circle() {
+            super(GeometricShapesType.CIRCLE);
+        }
     }
-}
